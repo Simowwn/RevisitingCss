@@ -179,3 +179,114 @@ p{
 .backdrop {
     background: url('img/backdrop.png') scroll no-repeat 50% 35%/cover;
 }
+.pseudo-contents{
+    text-align: center;
+}
+.btn-hover{
+    background-color: #FEDC56;
+    border-radius: 6px;
+    border: 0px ;
+}
+.btn-hover:hover{
+    background-color: #9B8632;
+    color: antiquewhite;
+}
+.btn-hover:active{
+    background-color: #9B8632;
+    color: antiquewhite;
+}
+.btn-hover-1:disabled{
+    opacity: 0.5;
+}
+.textfield:focus{
+    border: 2px solid #FEDC56;
+    outline: none;
+}
+label{
+    color: antiquewhite;
+}
+input:checked{
+    scale: 1.5;
+}
+.btn-hover-trans{
+    background-color: #FEDC56;
+    border-radius: 6px;
+    border: 0px ;
+    transition: 1s;
+}
+.btn-hover-trans:hover{
+    background-color: #9B8632;
+    border-radius: 6px;
+    border: 0px ;
+    color: antiquewhite;
+}
+.btn-hover-trans-1{
+    background-color: #FEDC56;
+    border-radius: 6px;
+    border: 0px ;
+    transition: 1.2s;
+    width: 100px;
+}
+.btn-hover-trans-1:hover{
+    background-color: #9B8632;
+    border-radius: 6px;
+    border: 0px ;
+    color: antiquewhite;
+    width: 200px;
+}
+.btn-hover-trans-2{
+    background-color: #FEDC56;
+    border-radius: 6px;
+    border: 0px ;
+    transition: width 1.2s, background-color 1s;
+    width: 100px;
+}
+.btn-hover-trans-2:hover{
+    background-color: #9B8632;
+    border-radius: 6px;
+    border: 0px ;
+    color: antiquewhite;
+    width: 200px;
+}
+.btn-hover-trans-3{
+    background-color: #FEDC56;
+    border-radius: 6px;
+    border: 0px ;
+    transition: 1s 3s;
+    width: 100px;
+}
+.btn-hover-trans-3:hover{
+    background-color: #9B8632;
+    border-radius: 6px;
+    border: 0px ;
+    color: antiquewhite;
+    width: 200px;
+}
+.btn-hover-trans-4{
+    background-color: #FEDC56;
+    border-radius: 6px;
+    border: 0px ;
+    transition: linear 1s;
+    width: 100px;
+}
+.btn-hover-trans-4:hover{
+    background-color: #9B8632;
+    border-radius: 6px;
+    border: 0px ;
+    color: antiquewhite;
+    width: 200px;
+}
+.btn-hover-trans-5{
+    background-color: #FEDC56;
+    border-radius: 6px;
+    border: 0px ;
+    transition: width 2s linear 1s;
+    width: 100px;
+}
+.btn-hover-trans-5:hover{
+    background-color: #9B8632;
+    border-radius: 6px;
+    border: 0px ;
+    color: antiquewhite;
+    width: 200px;
+}
