@@ -290,3 +290,43 @@ input:checked{
     color: antiquewhite;
     width: 200px;
 }
+.bs-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bs-content-1{
+    height: 100px;
+    width: 200px;
+    box-shadow: 2px 2px black;
+    border: 1px solid;
+}
+.bs-content-2{
+    height: 100px;
+    width: 200px;
+    box-shadow: 2px 2px 5px black;
+}
+.bs-content-3{
+    height: 100px;
+    width: 200px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5); /* This is the format x-off  y-off  blur  spread clor*/
+    border-radius: 5px;
+}
+.bs-content-4{
+    height: 100px;
+    width: 200px;
+    box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.5); /* This is the format x-off  y-off  blur  spread clor*/
+    border-radius: 5px;
+}
+.bs-content-5{
+    height: 100px;
+    width: 200px;
+    box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.5) inset; /* This is the format x-off  y-off  blur  spread clor*/
+    border-radius: 5px;
+}
+.bs-content-6{
+    height: 100px;
+    width: 200px;
+    box-shadow: 2px 2px 5px 2px red, -2px -2px 5px 2px blue;
+    border-radius:  5px;
+}
