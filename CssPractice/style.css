@@ -330,3 +330,47 @@ input:checked{
     box-shadow: 2px 2px 5px 2px red, -2px -2px 5px 2px blue;
     border-radius:  5px;
 }
+
+.ds-content-1{
+    background: #FEDC56;
+    color: #1F1F1F;
+}
+.ds-content-2{
+    background: #FEDC56;
+}
+span{
+    background: #FEDC56;
+}
+.ds-content-3{
+    display: inline;
+}
+.ds-content-4{
+    display: inline-block;
+    width: 500px;
+}
+.note{
+    font-size: 12px;
+}
+.ds-container-1{
+    width: 100px;
+    height: 100px;
+    background-color: #8A9A5B;
+    margin-top: 10px;
+}
+.ds-container-2{
+    width: 100px;
+    height: 100px;
+    background-color: #8A9A5B;
+    margin-top: 0px;
+    display: inline-block;
+}
+h2{
+    text-align: center;
+}
+
+#vis-2{
+    visibility: hidden;
+}
+#vis-7{
+    display: none;
+}
