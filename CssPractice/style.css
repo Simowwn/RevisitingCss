@@ -374,3 +374,49 @@ h2{
 #vis-7{
     display: none;
 }
+.p-container{
+    width: 100px;
+    height: 100px;
+    background-color: #FEDC56;
+    border-radius:50px;
+    margin-top: 0px;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+}
+h2{
+    text-align: center;
+}
+
+.p-fixed{
+    position: fixed;
+    top: 100px;
+    background-color: #FEDC56;
+    margin: 10;
+    color: #1F1F1F;
+}
+.p-sticky{
+    position: sticky;
+    top: 0;
+    background-color: #FEDC56;
+    color: #1F1F1F;
+}
+.p-container a {
+    text-decoration: none;
+    color: #000;
+}
+
+.p-container a:hover {
+    text-decoration: underline;
+    color: #333;
+}
+.p-absolute{
+    position: absolute;
+}
+.p-notes{
+    color: #819CD8;
+}
+.p-relative{
+    position: relative;
+    bottom: -50px;
+}
