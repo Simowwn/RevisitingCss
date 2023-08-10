@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+}
+nav{
+    background-color: black;
+    padding: 5px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+a{
+    color: white;
+    text-decoration: none; /* no underline */
+    margin:0px 10px;
+    font-family: verdana;
+    transition: 1s;
+}
+
+a:hover{
+    color: #FEDC56;
+}
